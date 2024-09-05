@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 110%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width:100% ;
+    background:hsl(0, 52%, 78%) ;
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /* background: #3fe21a; */
+}
+#part2{
+    height: 100%;
+    width: 68%;
+    background: #e21a1a;
+    background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center ;
+
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff32;
+}
+#part3{
+    height: 100%;
+    width: 6%;
+    /* background: #1a24e2; */
+}
+#text{
+    /* height: 300px; */
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* transform: translate(0,-50%); */
+    /* background-color: aqua; */
+}
+#text h1{
+    font-size: 80px;
+    font-family: monument;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 8px;
+    color: #ffff;
+
+}
+#image{
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 79%;
+    /* transform: translate(0,40%); */
+    background-color: aqua;
+    background-image: url(https://images.unsplash.com/photo-1516726817505-f5ed825624d8?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#overlay2{
+    height: 100%;
+    width: 100%;
+    background-color: #e2737355;
+}
+#vertical-text{
+   position: absolute;
+   /* height: 150px; */
+   transform: rotate(90deg);
+   /* width: 100%; */
+   right: -50%;
+   z-index: 5;
+   transform-origin: 0% 0% ;
+}
+#vertical-text h1{
+    font-size: 50px;
+    font-family: monument;
+    font-weight: 800;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffff;
+    color: transparent;
+    letter-spacing: 5px;
+   
+    
+}
+#nav{
+    position:absolute;
+   width: 400px;
+   /* background-color: aqua; */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   left: 10%;
+   top: 5%;
+}
+#nav h1{
+    font-size: 30px;
+    font-family: gilroy;
+    color: #ffff;
+}
